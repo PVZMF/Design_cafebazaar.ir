@@ -1,0 +1,97 @@
+@font-face {
+    font-family:"yekan" ;
+    src: url(../assets/fonts/Yekan-Font-master/Yekan.woff2);
+    font-weight: normal;
+    /*line-height: normal;*/
+    font-display: auto;
+}
+
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.root{
+    --color-primary: #03a960;
+    --text-primary: #2a2a2a;
+    --text-seondary: #8a8a8a;
+    --border-color: #e5e7f0;
+}
+
+.header{
+    width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .container{
+        width: 100%;
+        display: block;
+    }
+    .header__tools{
+        height: 56px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around;
+        padding: 0 15px 0 15px;
+    }
+    .header__input{
+        display: flex;
+        flex:0.9;
+        /*float: right;*/
+        flex-direction:row;
+        align-items: center;
+        justify-content:stretch;
+        height: 2.25rem;
+        padding:0 0.5rem 0 1rem;
+        border: 1px solid #eae8e8;
+        border-radius: 5px;
+        cursor:text;
+    }
+    .header__input:hover{
+        border: 1px solid #8a8888;
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .searchbar input{
+        border: 0;
+        outline: 0;
+        width: 100%;
+    }
+    .searchbar__icon{
+        padding: 0.2rem 0 0 0.5rem;
+    }
+    .icon__hamburger{
+        width: 36px;
+        height: 36px;
+        padding: 0.3rem 0.3rem 0 0;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    .icon__hamburger:hover{
+        border-radius: 5px;
+        border: 1px solid #939191;
+    }
+    .icon__user{
+        border: 0;
+        width: 36px;
+        height: 36px;
+        padding: 0.5rem 0.6rem 0 0;
+    }
+    .icon__user:hover{
+        border-radius: 50px;
+        background: #f6f5f5;
+        border: 0;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+}
