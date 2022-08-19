@@ -1,0 +1,29 @@
+{
+  "name": "pkg_cafebazar",
+  "version": "1.0.0",
+  "description": "Desining first page cafebazar responsive",
+  "main": "assets/src/App.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PVZMF/Design_cafebazaar.ir.git"
+  },
+  "keywords": [
+    "cafebazar",
+    "front-end"
+  ],
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "author": "M.H.Moghaddamfar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PVZMF/Design_cafebazaar.ir/issues"
+  },
+  "homepage": "https://github.com/PVZMF/Design_cafebazaar.ir#readme"
+}
